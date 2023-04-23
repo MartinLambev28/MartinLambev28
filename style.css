@@ -1,0 +1,48 @@
+
+body{
+    display: grid;
+    grid-gap: 10px;justify-content: center;
+    background-color: darkred;
+
+    
+}
+
+#slots{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    margin: 0 auto;
+    min-width:  500px;
+    min-height: 500px;
+    background-color:forestgreen;
+    align-items: center;
+    align-content: center;
+
+}
+#slots > label{
+    display: grid;
+    background-color:orange;
+    padding: 50px;
+    font-size:  50px;
+    justify-content: center;
+    display: grid;
+}
+
+#RollButton{
+    font-size: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: blue;
+    background-color: crims;
+    box-shadow: inset;
+    
+    
+}
+
+#WIN{
+    display: grid;
+    background-color: aquamarine;
+    font-size: 200px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
